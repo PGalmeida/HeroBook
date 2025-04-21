@@ -1,0 +1,14 @@
+header {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
