@@ -57,4 +57,4 @@ Pedro Gomes de Almeida
 
 ## Deploy
 
-Você pode acessar o deploy do projeto [aqui](https://hero-book-q94h3vbkv-pgalmeidas-projects.vercel.app/).
+Você pode acessar o deploy do projeto [aqui](https://hero-book-5osnorur7-pgalmeidas-projects.vercel.app/).
