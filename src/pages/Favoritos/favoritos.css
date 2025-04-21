@@ -1,58 +1,85 @@
 .favoritos-container {
-    padding: 2rem;
-    max-width: 800px;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffc107;
+}
+
+.vazio {
+    font-size: 1.5rem;
+    color: #ccc;
     text-align: center;
 }
 
-.favoritos-container h1 {
-    margin-bottom: 2rem;
-    color: #333;
-}
-
 .favoritos-lista {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    gap: 1rem;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
 }
 
 .favorito-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: #f0f0f0;
-    padding: 1rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
 }
 
-.favorito-item img {
-    border-radius: 50%;
+.favorito-item:hover {
+    transform: scale(1.05);
 }
 
-.favorito-item span {
-    flex-grow: 1;
-    margin-left: 1rem;
-    text-align: left;
-    font-weight: bold;
+.favorito-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.favorito-card img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 150px;
+    object-fit: cover;
+}
+
+.favorito-name {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 .favorito-item button {
-    background: #e63946;
+    background-color: #ff4d4d;
     color: white;
     border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
+    padding: 8px 16px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: background-color 0.3s ease;
+    width: 100%;
 }
 
 .favorito-item button:hover {
-    background: #c2182b;
-}
-
-.vazio {
-    font-size: 1.2rem;
-    color: #666;
+    background-color: #ff2a2a;
 }

@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="main-header">
       <nav className="nav-bar">
-        <h2>HeroFinder</h2>
+        <h2>HeroBook</h2>
         <div className="nav-links">
           <Link to="/">Home</Link>
           <Link to="/favoritos">Favoritos</Link>
