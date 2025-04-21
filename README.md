@@ -55,6 +55,6 @@ http://localhost:3000
 
 Pedro Gomes de Almeida
 
-## 📡 Deploy
+## Deploy
 
-O deploy será disponibilizado em breve. Fique atento às atualizações no repositório.
+Você pode acessar o deploy do projeto [aqui](https://hero-book-q94h3vbkv-pgalmeidas-projects.vercel.app/).
